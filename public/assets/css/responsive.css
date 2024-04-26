@@ -1,0 +1,112 @@
+/* Mini desktop */
+@media (min-width: 992px) {
+    
+}
+
+/* Normal desktop :. */
+@media (min-width: 1200px) {
+    
+}
+
+/* Normal desktop :1500px. */
+@media (max-width: 1500px) {
+    
+}
+
+/* Mini desktop :1300px. */
+@media (max-width: 1300px) {
+    
+}
+ 
+/* Tablet :991px. */
+@media (max-width: 991px) {
+    /* home page */
+    header .logo-box {
+        border-right: 0 !important;
+    }
+    .home-main-banner {
+        padding: 10px 0 30px;
+    }
+    .features-area,
+    .two-banner-right-img-area,
+    .home-categories-area {
+        padding: 30px 0;
+    }
+    .banner-2,
+    .banner-3 {
+        padding: 40px 10% 40px 24px;
+    }
+    .new-arrival-area {
+        padding-bottom: 30px;
+    }
+    .home-banner-4,
+    .home-banner-5,
+    .home-banner-6 {
+        padding: 24px 16px 24px 16px;
+    }
+    .sale-banner-2-area .img-box {
+        display: none;
+    }
+    .sale-banner-2-area .text-box {
+        border-radius: 46px;
+    }
+    .subscribe-card-area {
+        padding: 30px 0;
+    }
+}
+ 
+/* Large mobile :767px. */
+@media (max-width: 767px) {
+    /* default style */
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    h3 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .btn {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    /* home page */
+    .home-banner-5,
+    .home-banner-6 {
+        padding-left: 40%;
+    }
+    .sale-banner-2-area .text-box {
+        padding: 50px 30px;
+    }
+    .subscribe-card-area .text-box {
+        padding: 40px 30px;
+    }
+    .footer-top {
+        padding: 30px 0 20px;
+    }
+
+    /* product details page */
+    .product-details-area .main-img img {
+        border-radius: 48px;
+    }
+    .product-details-area .select-btn {
+        height: 36px;
+    }
+    .product-description-area {
+        padding-top: 30px;
+    }
+}
+ 
+/* small mobile :576px. */
+@media (max-width: 576px) {
+    
+}

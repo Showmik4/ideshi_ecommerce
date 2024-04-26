@@ -1,0 +1,6 @@
+.sidebar-wrapper.close_icon img {
+    width: 40px;
+}
+.page-wrapper.compact-wrapper .page-body-wrapper .page-body {
+    min-height: calc(100vh - 160px);
+}

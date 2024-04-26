@@ -1,0 +1,191 @@
+/* google font family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+* {
+	transition: 0.3s;
+}
+i {
+	transition: 0.1s;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000;
+	position: relative;
+}
+img {
+	height: auto;
+	max-width: 100%;
+	image-rendering: -moz-crisp-edges;
+	image-rendering: -o-crisp-edges;
+	image-rendering: -webkit-optimize-contrast;
+	image-rendering: crisp-edges;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a,
+button {
+	color: #fff;
+	outline: medium none;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: 400;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover {
+	color: #DF080A;
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-top: 0px;
+	font-style: normal;
+	text-transform: normal;
+	color: #000;
+	font-weight: 700;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 64px;
+	line-height: 80px;
+}
+h2 {
+	font-size: 36px;
+	line-height: 48px;
+}
+h3 {
+	font-size: 34px;
+	line-height: 44px;
+	font-weight: 600;
+}
+h4 {
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 600;
+}
+h5 {
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 500;
+}
+h6 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 500;
+}
+small {
+	font-size: 12px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+}
+p {
+	font-size: 16px;
+	margin-bottom: 0;
+	line-height: 24px;
+}
+
+/* button style */
+.btn {
+	background-color: #000;
+	border: 1px solid #000;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 500;
+	margin-bottom: 0;
+	padding: 10px 25px;
+	border-radius: 14px;
+	text-align: center;
+	touch-action: manipulation;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+.btn:hover {
+	background-color: #fff;
+	border-color: #000;
+	color: #000;
+}
+button:focus, .btn:focus {
+	box-shadow: none !important;
+	outline: 0;
+}
+.btn-transparent {
+	background-color: transparent;
+	border-color: #fff;
+}
+.btn-white {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
+.btn-white:hover {
+	background-color: #000;
+	border-color: #fff;
+	color: #fff;
+}
+.btn-red {
+	background-color: #DF080A;
+}
+
+/* input */
+.form-control,
+.form-select {
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 10px;
+	padding: 8px 16px;
+}
+.form-control:focus,
+.form-select:focus {
+	box-shadow: none;
+	border-color: #000;
+}
+
+/* custom container */
+@media (min-width: 1300px) {
+	.container {
+		max-width: 1400px;
+	}
+}
+
+.hover-shadow:hover {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	transform: translateY(-4px);
+}
